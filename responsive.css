@@ -1,0 +1,296 @@
+/*-------------------------------> For mobile divices <-----------------------------*/
+@media (min-width: 0) and (max-width: 430px) {
+  .foot-pan2,
+  .ul_first,
+  .ul_second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foot-pan4 {
+    height: 50px;
+    font-size: 0.8rem;
+  }
+
+  .img-tiger1 {
+    height: 460px;
+    width: 94%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .img-tiger1 a {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+  }
+
+  .img-tiger1 p {
+    margin-top: -220px;
+    margin-left: 0px;
+  }
+
+  .shop-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #889fa4;
+  }
+
+  .box {
+    width: 80%;
+
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    flex-wrap: none;
+  }
+
+  .box-img {
+    height: 75%;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 24px;
+    background-size: cover;
+  }
+
+  .img {
+    height: 250px;
+    background-size: cover;
+  }
+
+  .img-pan {
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+  }
+
+  .img-pan p {
+    margin: 0px;
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-logo {
+    height: 40px;
+    width: 80px;
+    background-image: url("img/amazon_logo.png");
+    background-size: cover;
+    text-align: center;
+  }
+
+  .input {
+    display: flex;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-left: 5px;
+  }
+
+  .search,
+  .search_icon {
+    width: 20px;
+  }
+
+  .search-am {
+    width: 70%;
+    border: none;
+    font-size: 0.85rem;
+  }
+
+  .cart {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart i {
+    height: 2px;
+    width: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+  }
+
+  .cart p {
+    color: white;
+    font-size: 0.96rem;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .menue {
+    display: block;
+    padding: 10px;
+  }
+
+  .menue-card a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .order,
+  .account,
+  .order-ret {
+    display: none;
+  }
+
+  .panel {
+    height: 50px;
+  }
+
+  .panel-opt {
+    display: none;
+  }
+
+  .img {
+    height: 120px;
+    width: 100vw;
+    background-image: url("img/hero_image.jpg");
+  }
+
+  .scrole-pan {
+    height: 300px;
+  }
+
+  .scrole-pan p {
+    padding-bottom: 0px;
+  }
+
+  .scrole-x {
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(12, 1.5fr);
+    grid-template-rows: repeat(1, 0.3fr);
+    gap: 25px;
+    margin-left: 10px;
+  }
+
+  .scrole-img {
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    background-size: contain;
+  }
+
+  .sec-pan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  .sec-fur {
+    margin-top: 05px;
+    width: 90%;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 0px;
+  }
+}
+
+/*-------------------------------> For tablets divices <-----------------------------*/
+
+@media (min-width: 431px) {
+  .shop-sec {
+    display: block;
+  }
+
+  .shop-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .img-tiger1 {
+    height: 900px;
+    width: 95%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .img-tiger1 p {
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    color: white;
+    margin-top: -30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img {
+    height: 300px;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 769px) {
+  .img {
+    height: 200px;
+    width: 100vw;
+  }
+
+  .img-pan {
+    height: 50px;
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .order-ret {
+    display: none;
+  }
+
+  .input {
+    width: 40%;
+  }
+
+  .foot-pan2 {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+  }
+
+  .foot-pan2 ul {
+    padding-left: 30px;
+  }
+
+  .ul_first {
+    width: 100vw;
+  }
+
+  .ul_second {
+    width: 100vw;
+  }
+}
