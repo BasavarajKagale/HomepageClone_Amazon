@@ -17,15 +17,15 @@ box.addEventListener("click", () => {
 let msg = 0;
 let menue_symb = document.querySelector(".menue_symbol")
 let msCard = document.querySelector('.menue-card');
-menue_symb.innerHTML = "="
+menue_symb.innerHTML = "≡"
 menue_symb.addEventListener("click", function () {
   if (msg == 0) {
-    menue_symb.innerHTML = "x"
+    menue_symb.innerHTML = "×"
     msCard.style = "display:block"
     msg = 1;
   }
   else {
-    menue_symb.innerHTML = "="
+    menue_symb.innerHTML = "≡"
     msCard.style = "display:none"
     msg = 0;
   }
