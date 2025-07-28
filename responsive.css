@@ -42,13 +42,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
     background-color: #889fa4;
   }
 
   .box {
     width: 80%;
-
     margin-top: 15px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -103,9 +101,9 @@
   }
 
   .input {
-    display: flex;
     height: 30px;
     width: 145px;
+    display: flex;
     border-radius: 5px;
     border: 2px solid transparent;
     margin-left: 5px;
