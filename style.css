@@ -298,7 +298,10 @@
   margin-top: 15px;
   margin-bottom: 0px;
   border-radius: 10px;
-  flex-wrap: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .box h3,
@@ -315,31 +318,27 @@ p {
 }
 
 .box-img {
-  height: 220px;
+  height: 200px;
   width: 85%;
   margin-top: 10px;
-  margin-left: 24px;
   background-size: cover;
 }
 
 .hed {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
 }
 
 .he {
-  margin-left: 10px;
   margin-top: 20px;
   height: 190px;
-  width: 90%;
+  width: 80%;
 }
 
-.hi p {
-  margin-top: 20px;
-}
+
 
 h3 {
   color: black;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   font-weight: 900;
   margin-top: px;
 }
